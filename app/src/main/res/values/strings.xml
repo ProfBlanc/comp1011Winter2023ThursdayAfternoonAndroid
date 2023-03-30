@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android Dev is Fun!</string>
+    <string name="main_activity_title">Welcome to our App</string>
+    <string name="main_activity_subtitle">Click on an image to go to that screen</string>
+    <string name="image_alt">Android Image Description</string>
+
+    <string name="main_menu_item1">Home</string>
+    <string name="main_menu_item2">Profile</string>
+    <string name="main_menu_item3">Calculator</string>
+    <string name="main_menu_item4">File Manipulation</string>
+
+</resources>
