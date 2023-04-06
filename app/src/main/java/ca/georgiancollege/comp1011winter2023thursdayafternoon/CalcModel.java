@@ -18,32 +18,34 @@ public class CalcModel {
             num1Value = Double.parseDouble(num1);
             num2Value = Double.parseDouble(num2);
 
-            switch(operator){
-                case "+": {
+            switch (operator) {
+                case "+" :
                     resultValue = num1Value + num2Value;
                     setResult(resultValue + "");
                     break;
 
-                }
-                case "-": {
+
+
+                case "-" :
                     resultValue = num1Value - num2Value;
                     setResult(resultValue + "");
                     break;
 
-                }
-                case "/": {
+
+
+                case "/":
                     resultValue = num1Value / num2Value;
                     setResult(resultValue + "");
                     break;
 
 
-                }
-                default: {
+
+                default :
                     resultValue = num1Value * num2Value;
                     setResult(resultValue + "");
 
 
-                }
+
             };
             
             num1 = "";

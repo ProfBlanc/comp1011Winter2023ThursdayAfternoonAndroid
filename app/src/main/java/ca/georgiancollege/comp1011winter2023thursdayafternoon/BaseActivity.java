@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
@@ -41,6 +42,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                 break;
             case R.id.mainMenuItemPro:
                 intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                intent.putExtra("fun", "Georgian College");
                 startActivity(intent);
                 break;
             case R.id.mainMenuItemFM:
@@ -54,6 +56,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
 
         return true;
+    }
+
+    public void popUpMessage(String message){
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+
     }
 
 

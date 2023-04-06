@@ -40,6 +40,7 @@ public class MainActivity extends BaseActivity {
                         break;
                     case R.id.imageMainActivityPro:
                         intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                        intent.putExtra("fun", "hello!");
                         startActivity(intent);
                         break;
                     default:

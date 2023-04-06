@@ -7,4 +7,9 @@
         android:layout_height="match_parent"
         tools:context=".ProfileActivity">
 
+    <ImageView
+            android:layout_width="241dp"
+            android:layout_height="167dp" tools:srcCompat="@drawable/pro" android:id="@+id/main_image"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="79dp" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/pro"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
