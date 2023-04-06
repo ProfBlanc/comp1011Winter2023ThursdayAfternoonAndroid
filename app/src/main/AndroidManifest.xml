@@ -10,6 +10,15 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Comp1011Winter2023ThursdayAfternoon">
         <activity
+                android:name=".SplashActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
                 android:name=".FileManipulationActivity"
                 android:exported="true"/>
         <activity

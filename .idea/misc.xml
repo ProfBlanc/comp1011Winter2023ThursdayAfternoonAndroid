@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Benny Boom/IdeaProjects/comp1011Winter2023ThursdayAfternoon2/app/src/main/res/layout/activity_calculator.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Benny Boom/IdeaProjects/comp1011Winter2023ThursdayAfternoon2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Benny Boom/IdeaProjects/comp1011Winter2023ThursdayAfternoon2/app/src/main/res/layout/activity_profile.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/Benny Boom/IdeaProjects/comp1011Winter2023ThursdayAfternoon2/app/src/main/res/layout/activity_splash.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Benny Boom/IdeaProjects/comp1011Winter2023ThursdayAfternoon2/app/src/main/res/menu/menu_main.xml" value="0.37864583333333335" />
       </map>
     </option>
