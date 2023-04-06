@@ -22,16 +22,19 @@ public class CalcModel {
                 case "+": {
                     resultValue = num1Value + num2Value;
                     setResult(resultValue + "");
+                    break;
 
                 }
                 case "-": {
                     resultValue = num1Value - num2Value;
                     setResult(resultValue + "");
+                    break;
 
                 }
                 case "/": {
                     resultValue = num1Value / num2Value;
                     setResult(resultValue + "");
+                    break;
 
 
                 }
